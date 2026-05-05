@@ -68,7 +68,7 @@ mdict -a ./images/ xiandai7.mdd
 ## 使用说明
 
 *   **同名原则**：确保 `xiandai7.mdx` 与 `xiandai7.mdd` 文件名完全一致，并置于同一目录下。
-*   **词典图标**：准备一张正方形封面图命名为 `xiandai7.png` 即可显示词典图标。
+*   **词典图标**：准备一张正方形封面图命名为 `xiandai7.jpg` 即可显示词典图标。
 *   **致谢**：本项目基于 [dictkit/xiandai](https://github.com/dictkit/xiandai/) 的开源数据制作。
 
 ## 资源链接
