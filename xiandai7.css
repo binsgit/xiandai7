@@ -1,0 +1,29 @@
+/* 基础图片样式：确保不溢出容器 */
+.pic {
+    display: block;
+    margin: 0 auto;
+    height: auto;
+    max-width: 100%;
+}
+
+/* 横屏大图：强制填满逻辑宽度，利用高分辨率实现高清 */
+.pic-landscape {
+    width: 100%;
+}
+
+/* 竖屏正文：控制在合适的阅读宽度，防止在 PC 端过大 */
+.pic-portrait {
+    width: 98%; /* 留出微小边距更美观 */
+}
+
+/* 特殊小图：防止被拉伸变形 */
+.pic-icon {
+    width: 20%; 
+}
+
+/* 针对手机等窄屏设备的适配 */
+@media (max-width: 600px) {
+    .pic-portrait {
+        width: 100%;
+    }
+}
